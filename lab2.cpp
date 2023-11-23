@@ -9,14 +9,14 @@ int main()
     SetConsoleOutputCP(1251);
     const int arraySize = 5; 
     int myArray[arraySize];
-    std::cout << "Введіть елементи масиву:" << std::endl;
+    cout << "Введіть елементи масиву:" << endl;
     for (int i = 0; i < arraySize; ++i) {
-        std::cout << "Елемент " << i + 1 << ": ";
-        std::cin >> myArray[i];
+        cout << "Елемент " << i + 1 << ": ";
+        cin >> myArray[i];
     }
-    std::cout << "Масив у зворотньому порядку: ";
+    cout << "Масив у зворотньому порядку: ";
     for (int i = arraySize - 1; i >= 0; --i) {
-        std::cout << myArray[i] << " ";
+        cout << myArray[i] << " ";
     }
     return 0;
 }

@@ -10,8 +10,8 @@ int main()
     const int months = 12;
     double profits[months];
     for (int i = 0; i < months; ++i) {
-        std::cout << "¬вед≥ть прибуток за " << i + 1 << "-й м≥с€ць: ";
-        std::cin >> profits[i];
+        cout << "¬вед≥ть прибуток за " << i + 1 << "-й м≥с€ць: ";
+        cin >> profits[i];
     }
     double maxProfit = profits[0];
     double minProfit = profits[0];
@@ -27,7 +27,7 @@ int main()
             minMonth = i + 1;
         }
     }
-    std::cout << "ћаксимальний прибуток " << maxProfit << " був в " << maxMonth << "-м м≥с€ц≥.\n";
-    std::cout << "ћ≥н≥мальний прибуток " << minProfit << " був в " << minMonth << "-м м≥с€ц≥.\n";
+    cout << "ћаксимальний прибуток " << maxProfit << " був в " << maxMonth << "-м м≥с€ц≥.\n";
+    cout << "ћ≥н≥мальний прибуток " << minProfit << " був в " << minMonth << "-м м≥с€ц≥.\n";
     return 0;
 }
