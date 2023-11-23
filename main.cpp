@@ -30,7 +30,7 @@ int main()
             maxElement = array[i];
         }
     }
-    std::cout << "Мінімальний елемент: " << minElement << endl;
-    std::cout << "Максимальний елемент: " << maxElement << endl;
+    cout << "Мінімальний елемент: " << minElement << endl;
+    cout << "Максимальний елемент: " << maxElement << endl;
     return 0;
 }
