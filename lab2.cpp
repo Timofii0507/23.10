@@ -9,14 +9,14 @@ int main()
     SetConsoleOutputCP(1251);
     const int arraySize = 5; 
     int myArray[arraySize];
-    std::cout << "Ââåä³òü åëåìåíòè ìàñèâó:" << std::endl;
+    cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Ã¥Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã¨ Ã¬Ã Ã±Ã¨Ã¢Ã³:" << endl;
     for (int i = 0; i < arraySize; ++i) {
-        std::cout << "Åëåìåíò " << i + 1 << ": ";
-        std::cin >> myArray[i];
+        cout << "Ã…Ã«Ã¥Ã¬Ã¥Ã­Ã² " << i + 1 << ": ";
+        cin >> myArray[i];
     }
-    std::cout << "Ìàñèâ ó çâîðîòíüîìó ïîðÿäêó: ";
+    cout << "ÃŒÃ Ã±Ã¨Ã¢ Ã³ Ã§Ã¢Ã®Ã°Ã®Ã²Ã­Ã¼Ã®Ã¬Ã³ Ã¯Ã®Ã°Ã¿Ã¤ÃªÃ³: ";
     for (int i = arraySize - 1; i >= 0; --i) {
-        std::cout << myArray[i] << " ";
+        cout << myArray[i] << " ";
     }
     return 0;
 }
