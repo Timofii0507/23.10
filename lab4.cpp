@@ -10,8 +10,8 @@ int main()
     const int months = 12;
     double profits[months];
     for (int i = 0; i < months; ++i) {
-        std::cout << "Ââåä³òü ïðèáóòîê çà " << i + 1 << "-é ì³ñÿöü: ";
-        std::cin >> profits[i];
+        cout << "Ã‚Ã¢Ã¥Ã¤Â³Ã²Ã¼ Ã¯Ã°Ã¨Ã¡Ã³Ã²Ã®Ãª Ã§Ã  " << i + 1 << "-Ã© Ã¬Â³Ã±Ã¿Ã¶Ã¼: ";
+        cin >> profits[i];
     }
     double maxProfit = profits[0];
     double minProfit = profits[0];
@@ -27,7 +27,7 @@ int main()
             minMonth = i + 1;
         }
     }
-    std::cout << "Ìàêñèìàëüíèé ïðèáóòîê " << maxProfit << " áóâ â " << maxMonth << "-ì ì³ñÿö³.\n";
-    std::cout << "Ì³í³ìàëüíèé ïðèáóòîê " << minProfit << " áóâ â " << minMonth << "-ì ì³ñÿö³.\n";
+    cout << "ÃŒÃ ÃªÃ±Ã¨Ã¬Ã Ã«Ã¼Ã­Ã¨Ã© Ã¯Ã°Ã¨Ã¡Ã³Ã²Ã®Ãª " << maxProfit << " Ã¡Ã³Ã¢ Ã¢ " << maxMonth << "-Ã¬ Ã¬Â³Ã±Ã¿Ã¶Â³.\n";
+    cout << "ÃŒÂ³Ã­Â³Ã¬Ã Ã«Ã¼Ã­Ã¨Ã© Ã¯Ã°Ã¨Ã¡Ã³Ã²Ã®Ãª " << minProfit << " Ã¡Ã³Ã¢ Ã¢ " << minMonth << "-Ã¬ Ã¬Â³Ã±Ã¿Ã¶Â³.\n";
     return 0;
 }
