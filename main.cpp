@@ -14,7 +14,7 @@ int main()
     for (int i = 0; i < arraySize; ++i) {
         array[i] = rand() % 10000;
     }
-    cout << "Åëåìåíòè ìàñèâó: ";
+    cout << "Ã…Ã«Ã¥Ã¬Ã¥Ã­Ã²Ã¨ Ã¬Ã Ã±Ã¨Ã¢Ã³: ";
     for (int i = 0; i < arraySize; ++i) {
         cout << array[i] << " ";
     }
@@ -30,7 +30,7 @@ int main()
             maxElement = array[i];
         }
     }
-    std::cout << "Ì³í³ìàëüíèé åëåìåíò: " << minElement << endl;
-    std::cout << "Ìàêñèìàëüíèé åëåìåíò: " << maxElement << endl;
+    cout << "ÃŒÂ³Ã­Â³Ã¬Ã Ã«Ã¼Ã­Ã¨Ã© Ã¥Ã«Ã¥Ã¬Ã¥Ã­Ã²: " << minElement << endl;
+    cout << "ÃŒÃ ÃªÃ±Ã¨Ã¬Ã Ã«Ã¼Ã­Ã¨Ã© Ã¥Ã«Ã¥Ã¬Ã¥Ã­Ã²: " << maxElement << endl;
     return 0;
 }
