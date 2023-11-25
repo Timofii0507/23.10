@@ -31,7 +31,7 @@ int main()
             sumOfNegatives += arr[i];
             if (arr[i] < arr[minIndex])
                 minIndex = i;
-            maxIndex = i;
+            maxIndex = i; 
         }
     }
     for (int i = minIndex + 1; i < maxIndex; ++i) {

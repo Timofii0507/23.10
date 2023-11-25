@@ -14,7 +14,7 @@ int main()
         cout << "¬вед≥ть прибуток за " << i + 1 << "-й м≥с€ць: ";
         cin >> profits[i];
     }
-    int startMonth, endMonth;
+    int startMonth, endMonth; 
     cout << "¬вед≥ть початковий м≥с€ць д≥апазону: ";
     cin >> startMonth;
     cout << "¬вед≥ть к≥нцевий м≥с€ць д≥апазону: ";

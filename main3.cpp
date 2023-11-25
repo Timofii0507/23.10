@@ -15,7 +15,7 @@ int main()
     cout << "¬вед≥ть елементи масиву:\n";
     for (int i = 0; i < N; ++i) {
         cin >> arr[i];
-    }
+    } 
     double sum_of_negatives = 0;
     double product_between_min_max = 1;
     double product_of_even_indexed_elements = 1;

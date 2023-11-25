@@ -13,7 +13,7 @@ int main()
     for (int i = 0; i < arraySize; ++i) {
         cout << "Елемент " << i + 1 << ": ";
         cin >> myArray[i];
-    }
+    } 
     cout << "Масив у зворотньому порядку: ";
     for (int i = arraySize - 1; i >= 0; --i) {
         cout << myArray[i] << " ";
